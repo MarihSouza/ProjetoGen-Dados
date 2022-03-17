@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dados</string>
+    <string name="sorteio">Sorteio</string>
+    <string name="dados">Dados</string>
+    <string name="dado_6_lados">Dado 6 Lados</string>
+    <string name="Dado_20L">Button</string>
+    <string name="dado_de_20_lados">Dado de 20 Lados</string>
+</resources>
