@@ -20,13 +20,13 @@
         android:id="@+id/Sorteio"
         android:layout_width="117dp"
         android:layout_height="47dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="16dp"
         android:background="@color/purple_500"
         android:backgroundTint="@color/purple_500"
         android:text="@string/dados"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView2" />
 
@@ -34,13 +34,13 @@
         android:id="@+id/Dado6L"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="80dp"
         android:backgroundTint="@color/purple_500"
         android:text="@string/dado_6_lados"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text1" />
+        app:layout_constraintTop_toBottomOf="@+id/Sorteio" />
 
     <Button
         android:id="@+id/Dado12L"
@@ -48,7 +48,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="80dp"
         android:backgroundTint="@color/purple_500"
-        android:text="@string/dado_de_20_lados"
+        android:text="@string/dado_de_12_lados"
         app:iconTint="#03A9F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -66,20 +66,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Dado12L" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="51dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="72dp"
-        android:background="#FFC107"
-        android:foregroundTint="#0B0B0B"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@color/black"
-        app:drawableTint="#070707"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Sorteio"
-        tools:text="1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
